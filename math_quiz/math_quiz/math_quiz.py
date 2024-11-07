@@ -97,7 +97,7 @@ def math_quiz():
 
         if user_answer == ANSWER:
             print("Correct! You earned a point.")
-            correct_answer += -(-1)
+            correct_answer += 1
         else:
             print(f"Wrong answer. The correct answer is {ANSWER}.")
 

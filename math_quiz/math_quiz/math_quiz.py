@@ -32,8 +32,7 @@ def random_operation_selector():
         random.choice= random operator ( +,-,*)
     
     """
-
-    # TODOS ADD DIVIDE OPERATION
+    
     return random.choice(['+', '-', '*']) #choosed the operation that will be applied
 
 
